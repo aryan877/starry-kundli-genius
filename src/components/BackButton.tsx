@@ -8,7 +8,7 @@ const BackButton = () => {
   return (
     <Button
       variant="ghost"
-      className="absolute top-20 left-4 text-white hover:text-cosmic-gold"
+      className="absolute top-8 left-4 text-white hover:text-cosmic-gold"
       onClick={() => navigate(-1)}
     >
       <ArrowLeft className="mr-2" />
