@@ -1,10 +1,12 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { FileDown, Compass } from "lucide-react";
+import BackButton from "@/components/BackButton";
 
 const KundliGeneration = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-cosmic-purple to-cosmic-blue p-8">
+      <BackButton />
       <div className="max-w-7xl mx-auto">
         <h1 className="text-4xl font-bold text-white mb-8">Kundli Generation</h1>
         
